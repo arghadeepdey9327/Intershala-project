@@ -1,0 +1,11 @@
+<%- include("header") -%>
+<h1>Login Form For Shop Keeper</h1>
+<div>
+    <form action="/shopKeeperlogin" method="POST">
+        <input type="number" name="phoneNumber">
+        <input type="password" name="password">
+        <input type="hidden" name="shopKeeperCategory" value="shopKeeper">
+        <div><button type="submit">Submit</button></div>
+    </form>
+</div>
+<%- include("footer") -%>

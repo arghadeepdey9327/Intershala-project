@@ -1,0 +1,11 @@
+<%- include("header") -%>
+<h1>Login Form For Customer</h1>
+<div>
+    <form action="/customerlogin" method="POST">
+        <input type="email" name="phoneNumber">
+        <input type="password" name="password">
+        <input type="hidden" name="customerCategory" value="customer">
+        <div><button type="submit">Submit</button></div>
+    </form>
+</div>
+<%- include("footer") -%>

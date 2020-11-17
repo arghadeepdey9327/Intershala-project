@@ -1,0 +1,14 @@
+<%- include("header") -%>
+<div style="margin-bottom: 150px; height: 300px; text-align: center; background-color: chocolate; width: 1700px;">
+    <img src="object.png" style="position: relative; top: 100px;" alt="Shop Keeper Registration">
+    <h1 style="position: relative; top: 200px;">Registration Form For Customer</h1>
+</div>
+<div>
+    <form action="/customerRegistration" method="POST">
+        <div style="position: relative; left: 640px;"><input type="email" name="userName">
+        <input type="password" name="password"></div>
+        <div style="position: relative; left: 790px; top: 30px;"><button type="submit" style="border-radius: 25px;">Submit</button></div>
+    </form>
+</div>
+
+<%- include("footer") -%>
